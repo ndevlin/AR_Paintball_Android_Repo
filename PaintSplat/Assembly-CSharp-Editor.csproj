@@ -269,34 +269,34 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.31f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/PackageCache/com.ptc.vuforia.engine@8.5.9/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/PackageCache/com.ptc.vuforia.engine@8.5.9/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/PackageCache/com.ptc.vuforia.engine@8.5.9/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/PackageCache/com.ptc.vuforia.engine@8.5.9/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.31f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -656,46 +656,46 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="VuforiaScripts">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="VuforiaEditorScripts">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/PaintSplat/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/nd_mo/Desktop/PennHwork/568 Game Design/AR_Paintball/AR_Paintball_Project/AR_Paintball_Android/AR_Paintball_Android_Repo/PaintSplat/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
