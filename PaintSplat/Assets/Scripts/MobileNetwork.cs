@@ -6,7 +6,7 @@ public class MobileNetwork : Photon.PunBehaviour
 
     private void OnGUI()
     {
-        GUILayout.Label(PhotonNetwork.connectionStateDetailed.ToString());
+        GUILayout.Label("           " + PhotonNetwork.connectionStateDetailed.ToString());
     }
 
     // TODO-2.a: 

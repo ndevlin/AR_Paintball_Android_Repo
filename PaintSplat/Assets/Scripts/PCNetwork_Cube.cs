@@ -26,7 +26,7 @@ public class PCNetwork_Cube : Photon.PunBehaviour
 
     private void OnGUI()
     {
-        GUILayout.Label(PhotonNetwork.connectionStateDetailed.ToString());
+        GUILayout.Label("                  " + PhotonNetwork.connectionStateDetailed.ToString());
         GUILayout.Label("Room Name: " + roomName);
     }
 

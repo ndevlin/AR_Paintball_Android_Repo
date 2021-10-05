@@ -13,12 +13,12 @@ public class MobileNetwork_Cube : Photon.PunBehaviour
 	{
 		PhotonNetwork.ConnectUsingSettings("0.1");
 		roomName = "testing";
-        Screen.orientation = ScreenOrientation.Portrait;
+        //Screen.orientation = ScreenOrientation.Portrait;
     }
 
     private void OnGUI()
     {
-        GUILayout.Label(PhotonNetwork.connectionStateDetailed.ToString());
+        GUILayout.Label("            " + PhotonNetwork.connectionStateDetailed.ToString());
     }
 
 	public override void OnJoinedLobby()
@@ -30,9 +30,10 @@ public class MobileNetwork_Cube : Photon.PunBehaviour
     public override void OnJoinedRoom()
     {
         //TODO-1.c: use PhotonNetwork.Instantiate to create a "PhoneCube" across the network
-        
+        GUILayout.Label("            " + "Joined" );
 
 
-		base.OnJoinedRoom ();
+
+        base.OnJoinedRoom ();
 	}
 }
