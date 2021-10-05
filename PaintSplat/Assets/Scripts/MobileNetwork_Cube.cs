@@ -30,9 +30,9 @@ public class MobileNetwork_Cube : Photon.PunBehaviour
     public override void OnJoinedRoom()
     {
         //TODO-1.c: use PhotonNetwork.Instantiate to create a "PhoneCube" across the network
-        GUILayout.Label("            " + "Joined" );
+        Debug.Log("Trying to add PhoneCube");
 
-
+        PhotonNetwork.Instantiate("PhoneCube", new Vector3(0, 0, 0), Quaternion.identity, 0);
 
         base.OnJoinedRoom ();
 	}
