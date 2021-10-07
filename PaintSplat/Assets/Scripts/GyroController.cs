@@ -16,8 +16,8 @@ public class GyroController : MonoBehaviour
     public bool Paused { get; set; }
 
     Quaternion qRefObject = Quaternion.identity;
-    Quaternion qRefGyro = Quaternion.identity;
-	Quaternion qRefGyroLeft = Quaternion.identity;
+    Quaternion qRefGyro = Quaternion.identity; // The quat in Unity's coordinate space, left-handed
+	Quaternion qRefGyroRight = Quaternion.identity; // The quat in the right-handed space of the Android phone
     Gyroscope gyro;
 
     GameObject controlledObject;
@@ -64,8 +64,22 @@ public class GyroController : MonoBehaviour
             //   data from gyroscope
 
 
+            // PhoneCube is the controlledOject 
+            // q0 = qRefObject
+            // qref = The phone's initial quat
+            // qgyro = Input.Gyro.attitude Note: in right-handed coordinate system
+            // deltaQgyro = Inverse(qref) * qgyro
+            Quaternion deltaQgyro = Quaternion.Inverse(qRefGyroRight) * Input.gyro.attitude;
+
+            // Convert from right-handed to left-handed coordinate system
+            Quaternion deltaQgyroLeftHanded = ConvertRotation(deltaQgyro);
+
+            // qObject = q0 * deltaQgyroLeftHanded;
+            controlledObject.transform.rotation = qRefObject * deltaQgyroLeftHanded;
+
             // Test
-            controlledObject.transform.rotation = gyro.attitude * qRefObject;
+            //controlledObject.transform.rotation = qRefObject * ConvertRotation(Quaternion.Inverse(qRefGyroRight) * Input.gyro.attitude);
+
 
         }
     }
@@ -78,7 +92,7 @@ public class GyroController : MonoBehaviour
         }
         qRefObject = controlledObject.transform.rotation;
         qRefGyro = ConvertRotation(Input.gyro.attitude);
-		qRefGyroLeft = Input.gyro.attitude;
+		qRefGyroRight = Input.gyro.attitude;
     }
 
     // Possible helper function to smooth between gyro and Vuforia
