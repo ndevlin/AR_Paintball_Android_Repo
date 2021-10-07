@@ -47,7 +47,6 @@ public class GyroController : MonoBehaviour
         GUILayout.Label("Ref gyro attitude:" + qRefGyro);
     }
 
-    // LOOK-1.d:
     // Converts the data returned from gyro from right-handed base to left-handed base.
     // Your device may require a different conversion
     private static Quaternion ConvertRotation(Quaternion q)
@@ -90,12 +89,15 @@ public class GyroController : MonoBehaviour
 		qRefGyroRight = Input.gyro.attitude;
     }
 
+    /*
     //Helper function to smooth between gyro and Vuforia
     public void UpdateOrientation(float deltatime)
     {
              float smooth = 1f;
              qRefCam = Quaternion.Slerp(qRefCam, transform.rotation, smooth * deltatime);
              qRefGyro = Quaternion.Slerp(qRefGyro, ConvertRotation(gyro.attitude), smooth * deltatime);
-         }
     }
+    */
+
 }
+

@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// LOOK-1.b: the parent class is not a basic MonoBehavior!
+// Note: the parent class is not a basic MonoBehavior
 public class PCNetwork_Cube : Photon.PunBehaviour
 {
     private string roomName;
 
-    // LOOK-1.b: creating a room on PC
+    // Creating a room on PC
     private void Start()
     {
         // Make sure "Auto-Join Lobby" was checked at 
