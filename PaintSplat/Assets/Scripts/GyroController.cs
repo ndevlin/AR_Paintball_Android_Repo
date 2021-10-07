@@ -62,6 +62,11 @@ public class GyroController : MonoBehaviour
             // TODO-1.d & TODO-2.a:
             //   rotate the camera or cube based on qRefObject, qRefGyro and current 
             //   data from gyroscope
+
+
+            // Test
+            controlledObject.transform.rotation = gyro.attitude * qRefObject;
+
         }
     }
 

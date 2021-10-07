@@ -32,7 +32,9 @@ public class MobileNetwork_Cube : Photon.PunBehaviour
         //TODO-1.c: use PhotonNetwork.Instantiate to create a "PhoneCube" across the network
         Debug.Log("Trying to add PhoneCube");
 
-        PhotonNetwork.Instantiate("PhoneCube", new Vector3(0, 0, 0), Quaternion.identity, 0);
+        GameObject cube = PhotonNetwork.Instantiate("PhoneCube", new Vector3(0, 0, 0), Quaternion.identity, 0);
+
+        GetComponent<GyroController>().ControlledObject = cube;
 
         base.OnJoinedRoom ();
 	}
