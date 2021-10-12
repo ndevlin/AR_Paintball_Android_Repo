@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class MobileShooter : MonoBehaviour {
     public Button ShootFrontButton;
+    public GameObject ARCamera; // Set within Unity
+
     private GameObject phoneCube, phoneCube2;
     private TargetBehavior targetBehavior;
 
@@ -84,6 +86,12 @@ public class MobileShooter : MonoBehaviour {
         //   of the ball across all clients (PhotonTargets.All) and transfer 
         //   the ownership of the ball to PC so the ball is correctly destroyed
         //   upon hitting a wall.
+
+        GameObject ball = PhotonNetwork.Instantiate("Ball", ARCamera.transform.position, Quaternion.identity, 0);
+
+        PhotonView photonView = PhotonView.Get(ball);
+
+        photonView.RPC("RPCInitialize", PhotonTargets.All, velocity, color_v);
 
     }
 
