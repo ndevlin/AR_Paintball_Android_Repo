@@ -28,6 +28,10 @@ public class TargetBehavior : MonoBehaviour, ITrackableEventHandler
 
         Debug.Assert(CameraGyro.ControlledObject != null);
 
+
+        CameraGyro.ControlledObject = CameraProxy;
+
+
         var mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
         {
@@ -133,6 +137,10 @@ public class TargetBehavior : MonoBehaviour, ITrackableEventHandler
                 // Target in camera. Use the ARCamera's tracking and turn off GyroController's tracking for the CameraProxy.
                 // TODO-3.1.b 
 
+                tracked = true;
+                CameraGyro.Paused = true;
+                LateUpdate();
+
                 TrackButton.image.color = Color.green;
                 break;
             case TrackableBehaviour.Status.EXTENDED_TRACKED:
@@ -140,11 +148,19 @@ public class TargetBehavior : MonoBehaviour, ITrackableEventHandler
                 // Use the ARCamera's tracking and turn off GyroController's tracking for the CameraProxy.
                 // TODO-3.1.b
 
+                tracked = true;
+                CameraGyro.Paused = true;
+                LateUpdate();
+
                 TrackButton.image.color = Color.yellow;
                 break;
             default:
                 // Tracking is lost completely. Switch tracking to use the gyro-controlled CameraProxy instead. 
                 // TODO-3.1.b
+
+                tracked = false;
+                CameraGyro.Paused = false;
+                CameraGyro.ResetOrientation();
 
                 TrackButton.image.color = Color.red;
                 break;
