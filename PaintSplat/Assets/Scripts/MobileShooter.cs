@@ -11,12 +11,14 @@ public class MobileShooter : MonoBehaviour {
     private TargetBehavior targetBehavior;
 
     bool started = false;
-    float swipespeed_min = 1;
+    float swipespeed_min = 1.0f;
+    float swipespeed_max = 100.0f;
+
     Vector3 mousedown_pos;
     float mousedowned_time;
 
     bool bMouseDown = false;
-    float ballSpeedFixed = 25f;
+    float ballSpeed = 25.0f;
 
     private void Start()
     {
@@ -53,8 +55,7 @@ public class MobileShooter : MonoBehaviour {
             bMouseDown = true;
         }
 
-        // TODO-3.1.b
-        // The following method for detecting finger swipes has been implemented for you.
+
         if (Input.GetMouseButtonUp(0))
         {
             if (!bMouseDown || mousedowned_time <= 0.05f) return;
@@ -63,8 +64,9 @@ public class MobileShooter : MonoBehaviour {
             Vector3 delta = (mouseup_pos - mousedown_pos) / Screen.height;
             Vector3 swipe_vel = delta / mousedowned_time;
 
-            if (swipe_vel.y > swipespeed_min) {
-                ShootBallUp();
+            if (swipe_vel.y > swipespeed_min)
+            {
+                ShootBallUp(System.Math.Min(swipespeed_max, swipe_vel.y * 10.0f));
             }
 
             bMouseDown = false;
@@ -97,10 +99,11 @@ public class MobileShooter : MonoBehaviour {
 
     public void ShootBallFront()
     {
-        ShootBall(ballSpeedFixed * targetBehavior.GetPhoneForward());
+        ShootBall(ballSpeed * targetBehavior.GetPhoneForward());
     }
 
-    public void ShootBallUp() {
-        ShootBall(ballSpeedFixed * targetBehavior.GetPhoneUp());
+    public void ShootBallUp(float speed)
+    {
+        ShootBall(speed * targetBehavior.GetPhoneUp());
     }
 }
