@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using Photon;
 
+using System;
+
 public class BoardBehavior : Photon.MonoBehaviour {
 
     public GameObject SplatterPrefab;
     public GameObject imageTarget;
+
+    public int numBalls = 0;
 
     private List<GameObject> splatters = new List<GameObject>();
 
@@ -23,7 +27,13 @@ public class BoardBehavior : Photon.MonoBehaviour {
         if (other.CompareTag("Ball"))
         {
             PhotonNetwork.Destroy(other);
-            Quaternion rot =  Quaternion.AngleAxis(Random.Range(0f, 360f), new Vector3(0, 0, 1)) ; //*transform.rotation;
+            Quaternion rot =  Quaternion.AngleAxis(UnityEngine.Random.Range(0f, 360f), new Vector3(0, 0, 1)) ; //*transform.rotation;
+
+            float addZ = Convert.ToSingle(numBalls) / 100000.0f;
+            hit_position.z = imageTarget.transform.position.z - addZ;
+
+            numBalls++;
+
             var splatter = Instantiate(SplatterPrefab, hit_position, rot) as GameObject;
 
             splatter.GetComponent<Renderer>().material.color = other.GetComponent<Renderer>().material.color;
